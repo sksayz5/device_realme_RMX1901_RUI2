@@ -10,9 +10,8 @@ TARGET_HAS_UDFPS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
-WITH_GAPPS := true
 TARGET_DISABLE_EPPE := true
-TARGET_GAPPS_ARCH := arm64
+USE_PIXEL_CHARGER := true
 
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
