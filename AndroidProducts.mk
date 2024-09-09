@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_RMX1901.mk
+    $(LOCAL_DIR)/statix_RMX1901.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_RMX1901-userdebug \
-    yaap_RMX1901-eng
+    statix_RMX1901-userdebug \
+    statix_RMX1901-eng
