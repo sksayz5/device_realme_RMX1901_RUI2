@@ -7,6 +7,3 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/statix_RMX1901.mk
 
-COMMON_LUNCH_CHOICES := \
-    statix_RMX1901-userdebug \
-    statix_RMX1901-eng
