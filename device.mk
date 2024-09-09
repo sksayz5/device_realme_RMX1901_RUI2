@@ -302,7 +302,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage \
+    $(LOCAL_PATH)/overlay-custom \
     $(LOCAL_PATH)/overlay
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
@@ -452,7 +452,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/usb/etc \
     hardware/qcom-caf/sdm845 \
     hardware/google/interfaces \
-    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/statix/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client
 
 # SystemUI
