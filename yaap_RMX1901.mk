@@ -9,10 +9,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_HAS_UDFPS := true
 TARGET_DISABLE_EPPE := true
 
-$(call inherit-product, vendor/statix/config/common.mk)
-$(call inherit-product, vendor/statix/config/gsm.mk)
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
-INCLUDE_PIXEL_LAUNCHER := true
+
+
 
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -22,7 +22,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1901
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := statix_RMX1901
+PRODUCT_NAME := yaap_RMX1901
 PRODUCT_MODEL := RMX1901
 
 PRODUCT_SYSTEM_NAME := RMX1901
