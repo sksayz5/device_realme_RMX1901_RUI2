@@ -303,7 +303,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage \
+    $(LOCAL_PATH)/overlay-aosp \
     $(LOCAL_PATH)/overlay
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
@@ -454,7 +454,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom-caf/sdm845 \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/blaze/interfaces/power-libperfmgr \
+    hardware/aosp/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client
 
 # SystemUI
